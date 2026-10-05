@@ -17,10 +17,10 @@ Este script envenena ARP en toda la subred indicada. No usar sin permiso del pro
 ## Uso
 
 ```bash
-sudo python3 mitm_recon_gui.py -i wlo1
-sudo python3 mitm_recon_gui.py -i eth0 --subnet 192.168.0.0/24
-sudo python3 mitm_recon_gui.py -i eth0 --skip-arp-spoof
-sudo python3 mitm_recon_gui.py -i eth0 --oui-file ieee_oui.csv
+sudo python3 mitc.py -i wlo1
+sudo python3 mitc.py -i eth0 --subnet 192.168.0.0/24
+sudo python3 mitc.py -i eth0 --skip-arp-spoof
+sudo python3 mitc.py -i eth0 --oui-file ieee_oui.csv
 ```
 
 
